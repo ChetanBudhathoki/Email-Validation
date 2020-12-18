@@ -13,7 +13,7 @@ app.post("/user/register", (req, res) => {
     res.send("Password is too short");
   } else {
     var sql =
-      "INSERT INTO users (`id`,`email`,`password`,`address`) VALUES (NULL,'" +
+      "INSERT INTO users (`id`,`email`,`password`,`name`) VALUES (NULL,'" +
       req.body.email +
       "','" +
       req.body.password +
