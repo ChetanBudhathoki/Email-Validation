@@ -1,0 +1,24 @@
+{
+  "name": "form-page",
+  "version": "1.0.0",
+  "description": "a test server ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bibhukiju/form-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bibhukiju/form-page/issues"
+  },
+  "homepage": "https://github.com/Bibhukiju/form-page#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "validator": "^13.5.2"
+  }
+}
