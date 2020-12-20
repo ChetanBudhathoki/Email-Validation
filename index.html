@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+         *{
+             box-sizing: border-box;
+             margin:  0;
+             padding: 0;
+         }
+         .formpage{
+             border: 2px solid red;
+             height: 100%;
+             width: 100vh;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin: 0 auto;
+         }
+         .form_page_container{
+             border: 2px solid blue;
+             height: 600px;
+             width: 400px;
+         }
+         .email{
+               height: 20px;
+         }
+         .name{
+            height: 20px;
+         }
+         .pass{
+            height: 20px;
+         }
+         .submitt{
+             height: 30px;
+             width: 50px;
+         }
+    </style>
+    <section class="formpage">
+        <div class="form_page_container">
+            <h3>EMAIL</h3>
+            <input type="text" class="email">
+            <br>
+            <h3>PASSWORD</h3>
+            <input type="password" class="pass">
+            <br><br>
+            <h3>NAME</h3>
+            <input type="text" class="name"><br>
+            <button class="submitt">
+             submitt
+            </button>
+        </div>
+    </section>
+</body>
+<script src="./index.js"></script>
+</html>
